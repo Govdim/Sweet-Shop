@@ -1,0 +1,39 @@
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.catalog-item-image {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 10px;
+    top: 20px;
+}
+
+.catalog-item-name {
+    position: relative;
+    text-align: center;
+    top: -170px;
+    color: #57275e;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.catalog-item-price {
+    position: relative;
+    text-align: center;
+    top: -175px;
+    color: #e5224c;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.catalog-item-buy {
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    left: 53px;
+    top: 355px;
+}
